@@ -124,7 +124,7 @@ class HttpClient(object):
 
 
 lib = HttpClient()
-logging.config.fileConfig(os.path.join(os.getcwd(), "setting", "logging.conf"))
+logging.config.fileConfig(os.path.join(os.getcwd(), "logging.conf"))
 logger = logging.getLogger("try3")
 
 
