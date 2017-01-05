@@ -146,7 +146,7 @@ print("obj2: ", obj2.tmp)
 
 start_time = time.time()
 while True:
-    # if time.time() - start_time = 0.9
+    
     status1 = obj1.isready()
     status2 = obj2.isready()
     status3 = obj3.isready()
@@ -170,3 +170,5 @@ print("\r\n" * 5)
 print(obj4.text)
 print("\r\n" * 5)
 print(obj5.text)
+
+print("TIME: ", time.time() - start_time )
